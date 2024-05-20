@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapy - TRAVELER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>TRAVELER</h1>
+</header>
+
+<nav>
+    <a href="index.html">Strona główna</a>
+    <a href="maps.html">Mapy</a>
+    <a href="landmarks.html">Lista zabytków</a>
+    <a href="presentation.html">Prezentacja</a>
+</nav>
+
+<section id="maps">
+    <h2>Mapy</h2>
+    <p>Kliknij na pinezkę, aby zobaczyć więcej informacji!</p>
+    <div id="map"></div>
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDldX6X93x0TmyB0C4MEYbCwZ7ox6F92RU&callback=initMap" async defer></script>
+<script src="script.js"></script>
+
+</body>
+</html>
